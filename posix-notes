@@ -60,6 +60,10 @@ command with &
 	kill %1
 		- kill suspended job #1
 
+which
+	shows where an executable is
+	-a shows all found versions of the executable
+
 Defined variables
 	$HOME
 		home dir
