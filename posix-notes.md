@@ -13,8 +13,9 @@
     - run command as super user
 * visudo
     - edit sudoers file
+* adduser <i>login</i>
+    - adds a user
     
-
 ### Variables
 * export "variable"=value
     - add a variable
