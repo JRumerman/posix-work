@@ -68,3 +68,9 @@
     - shows where an executable is
     -  -a shows all found versions of the executable, not just the first one.
 
+### services
+* init.d folder contains folders that are subsystems like web server, http, network, etc.
+* sudo service <i>serviceName</i> <i>cmd</i>
+	- do something to a running service
+		- ex: sudo service pdfreactor restart
+
