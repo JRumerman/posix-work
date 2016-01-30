@@ -19,6 +19,9 @@ variables
 	unset $"variable"
 		- remove variable
 
+	printenv
+		prints environment variables
+		
 profile settings
 	sudo vi /etc/profile
 		- will update profile for all users
@@ -68,4 +71,8 @@ Defined variables
 	$HOME
 		home dir
 	$PATH
-		
+		path to search for executables. first hit wins
+
+/etc/init.d/
+	folder that includes shell scripts that are executed on startup4
+
