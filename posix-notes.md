@@ -70,7 +70,8 @@
 
 ### services
 * init.d folder contains folders that are subsystems like web server, http, network, etc.
-* sudo service <i>serviceName</i> <i>cmd</i>
+* sudo service <i>serviceName</i> <i>start|stop|restart</i>
 	- do something to a running service
 		- ex: sudo service pdfreactor restart
-
+* the '.d' suffix indicates configuration that could have been one configuration file that has been split up into multiple directories and files
+* the 'init.d' folder is executed by the System V init tools (SysVinit). Some OSes are replacing it with UpStart
