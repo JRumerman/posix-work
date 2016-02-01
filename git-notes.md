@@ -45,6 +45,16 @@
 * git checkout --filename1
 	- undoes all local changes on filename1
 
+### git branch
+* git branch
+	- shows all local branches, colorizing the current branch
+* git branch -a
+	- shows all local and remote branches, colorizing the current branch
+* git branch -d 
+	- deletes local branch, if no commits pending
+* git branch -D
+	- force deletes local branch
+	
 ### git push
 * git push
 	- pushes the committed changes on the current branch to the remote repository. uses default values for upstream and repo since none were specified
