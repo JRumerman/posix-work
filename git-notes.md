@@ -50,4 +50,5 @@
 	- pushes the committed changes on the current branch to the remote repository. uses default values for upstream and repo since none were specified
 * git push origin HEAD
 	- push the current branch to the remote of the same name
-* git push 
+* git push origin <i>branchname</i>
+	- push the committed changes on branch <i>branchname</i> and creates it on the remote if the branch doesn't exist.
