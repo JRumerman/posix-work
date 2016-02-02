@@ -68,6 +68,18 @@
     - shows where an executable is
     -  -a shows all found versions of the executable, not just the first one.
 
+### searching commands
+* ls
+    - h - human readable sizes
+    - p - suffix '/' for folders
+    - A - all but . and ..
+    - l - list format
+* grep
+    - E - extended regex (could use egrep)
+* which
+    - shows where an executable is
+    -  -a shows all found versions of the executable, not just the first one.
+
 ### services
 * init.d folder contains folders that are subsystems like web server, http, network, etc.
 * sudo service <i>serviceName</i> <i>start|stop|restart</i>
