@@ -11,6 +11,14 @@
 * git init --bare
 	- initialize folder as a repository (a place where pushes can be sent)
 
+### git remote
+* git remote add origin ssh/http
+	- adds a remote origin the existing repo
+* git remote -v
+	- lists the fetch/push remotes for the current repo
+
+### git revert <i>commit number</i>
+	- reverts the commit listed in the commit number by committing the files necessary to revert it. 
 
 ### git diff
 * git diff
@@ -54,7 +62,10 @@
 	- deletes local branch, if no commits pending
 * git branch -D
 	- force deletes local branch
-	
+* git branch --set-upstream-to=origin/master master
+	- assigns the upstream (remote repo) origin master to the local master branch 
+ 
+
 ### git push
 * git push
 	- pushes the committed changes on the current branch to the remote repository. uses default values for upstream and repo since none were specified

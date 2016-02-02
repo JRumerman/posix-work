@@ -1,3 +1,6 @@
+### online playground
+	http://play.golang.org/
+	
 ### file layout
 	package <i>name</i>
 
@@ -73,6 +76,10 @@
 	}
 
 	there are fucking pointers...
+
+### fmt library
+* used to print stuff out
+* import "fmt"
 
 
 ### Compilation
