@@ -49,6 +49,8 @@
 	- N - search down
 	- n - search up
     - zz - center on found value
+    - dd - delete current line
+* 
 
 ### process commands
 * ps aux
@@ -67,6 +69,10 @@
 * which
     - shows where an executable is
     -  -a shows all found versions of the executable, not just the first one.
+
+### random
+* wc <i>filename</i>
+    word cound for filename
 
 ### searching commands
 * ls

@@ -54,7 +54,7 @@
 	- undoes all local changes on filename1
 
 ### git branch
-* git branch
+* git branches
 	- shows all local branches, colorizing the current branch
 * git branch -a
 	- shows all local and remote branches, colorizing the current branch
