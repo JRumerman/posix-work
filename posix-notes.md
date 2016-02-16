@@ -80,11 +80,28 @@
     - p - suffix '/' for folders
     - A - all but . and ..
     - l - list format
+    - r reverse
+    - R recursive
 * grep
     - E - extended regex (could use egrep)
 * which
     - shows where an executable is
     -  -a shows all found versions of the executable, not just the first one.
+* find
+    - find {phrase}
+        - type 
+            - f - files
+            - d - directories
+    - you can do a lot with find         
+* sort
+* tail
+    - tail -n 1
+        list the last 1 result
+* head
+    - tail -n 1 
+        list the first result
+    - tail -f 
+        tail forever - as a file is written to, there it keeps reading. very useful for log files
 
 ### services
 * init.d folder contains folders that are subsystems like web server, http, network, etc.
